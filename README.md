@@ -3,3 +3,5 @@ EMG-driven rep counter using Arduino and LCD interface. It calibrates baseline m
 
 # Project Set Up
 ## Installation/Hardware Specifications
+### Software Installation:
+Intall the [`Arduinio IDE`](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
