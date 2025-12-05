@@ -44,6 +44,22 @@ Make the following pin connections, from the 4 buttons to Adrduino (Buttons -> A
 * Button 3 -> digital pin 5
 * Button 4 -> digital pin 4
 * All buttons should also connect to GND
- 
+### Buzzer Connections
+Make the following pin connections, from the active buzzer to Adrduino (Buzzer -> Arduino):
+* VCC -> digital pin 3
+* GND -> GND
+### Battery Connections 
+Make these connections with the 2 9V batteries
+* Connect the negative terminal of one battery to the positive terminal of the other battery with a snap on battery connector. This creates a common ground
+* Connect the positive terminal of a bettery to the +V pin of the EMG sensor
+* Connect the negative terminal of a battery to the -V pin of the EMG sensor
+### EMG Sensor Connections to Arduino
+Make the following pin connections, from the EMG sensor to Adrduino (EMG -> Arduino):
+* SIG -> A3
+* GND -> GND
+
+# Using the Project
+Here is step-by-step how to use the Rep counter
+1. 
 
 
