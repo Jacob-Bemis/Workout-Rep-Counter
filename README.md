@@ -60,10 +60,28 @@ Make the following pin connections, from the EMG sensor to Adrduino (EMG -> Ardu
 
 # Using the Project
 Here is step-by-step how to use the Rep counter
-1. Place the three electrodes on your bicep
-* Place one electrode on the upper part of the muscle belly of your  bicep
-* Place another electrode roughly 2 cm below the previouse one
-* Place the final electrode on your elbow or any other boney part of your arm   
-2.   
+1. Connect Arduino to computer and upload the script named "Workout-Rep-Counter.ino" 
+2. Place the three electrodes on your bicep
+  * Place one electrode on the upper part of the muscle belly of your  bicep
+  * Place another electrode roughly 2 cm below the previouse one
+  * Place the final electrode on your elbow or any other boney part of your arm
+3. Connect the EMG cord to the sensor and connect the cord to the electrodes based on the color:
+  * Red -> upper part of the muscle belly
+  * Green -> 2 cm below Red
+  * Yellow -> Boney part
+4. To start a workout press Button 1
+  * This will bring you to the next stage where you will be configuring the number of reps
+5. Pressing Button 2 will increase the number of reps, and pressing Button 3 will decrease the number of reps, caping it at a 1 rep minumum
+  * The number of reps will appear on the LCD display
+  * If you would like to go back to the previouse stage, press Button 4
+6. Press Button 1 to continue to the next stage which is the countdown
+  * As soon as you press Button 1, stand up straight and hold a weight with your arm in a resting position (your arm is straight down)
+7. After the countdown is finished, you may begin your workout:
+  * The first curl you do is the initial curl, which starts the workout
+  * Continue doing curls until the the number of reps you set before reaches 0. After this point the workout is over and will transition back to the beginning 
+  * After the first initial rep, if you don't do a rep within 3 seconds between each rep, the device will transition into a different state. In this state you have 5 seconds to do a rep, if you fail to do a rep the workout is over and a message will display saying that you failed the workout. If you manage to get another rep in, it will transition back to the previous state and the workout will continue, or if this is your last rep, the workout will be over
+    
+ 
+    
 
 
