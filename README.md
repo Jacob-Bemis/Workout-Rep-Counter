@@ -61,9 +61,9 @@ Make the following pin connections, from the EMG sensor to Adrduino (EMG -> Ardu
 # Using the Project
 Here is step-by-step how to use the Rep counter
 1. Place the three electrodes on your bicep
-** Place one electrode on the upper part of the muscle belly of your  bicep
-** Place another electrode roughly 2 cm below the previouse one
-** Place the final electrode on your elbow or any other boney part of your arm   
+* Place one electrode on the upper part of the muscle belly of your  bicep
+* Place another electrode roughly 2 cm below the previouse one
+* Place the final electrode on your elbow or any other boney part of your arm   
 2.   
 
 
